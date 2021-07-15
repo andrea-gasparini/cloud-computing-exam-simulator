@@ -65,7 +65,8 @@
 		[
 			"20200515_simulation",
 			"20210525_simulation",
-			"20210614_exam"
+			"20210614_exam",
+			"20210715_exam"
 		]
 	},
 	{
@@ -180,7 +181,8 @@
 			"20200515_simulation",
 			"20200630_exam",
 			"20210525_simulation",
-			"20210614_exam"
+			"20210614_exam",
+			"20210715_exam"
 		]
 	},
 	{
@@ -230,11 +232,12 @@
 		[
 			"20200630_exam",
 			"20210525_simulation",
-			"20210614_exam"
+			"20210614_exam",
+			"20210715_exam"
 		]
 	},
 	{
-		"question": "Consider the live migration process and in the specific the 'iterative pre-copy' step. Why the memory is copied iteratively?",
+		"question": "Consider the live migration process and in the specific the “iterative pre-copy” step. Why the memory is copied iteratively?",
 		"options":
 		[
 			"To preserve continuity in the migration process",
@@ -248,7 +251,8 @@
 		[
 			"20200630_exam",
 			"20210525_simulation",
-			"20210614_exam"
+			"20210614_exam",
+			"20210715_exam"
 		]
 	},
 	{
@@ -267,7 +271,8 @@
 			"20200515_simulation",
 			"20200630_exam",
 			"20210525_simulation",
-			"20210614_exam"
+			"20210614_exam",
+			"20210715_exam"
 		]
 	},
 	{
@@ -285,7 +290,8 @@
 		[
 			"20200630_exam",
 			"20210525_simulation",
-			"20210614_exam"
+			"20210614_exam",
+			"20210715_exam"
 		]
 	},
 	{
@@ -303,7 +309,8 @@
 		[
 			"20200630_exam",
 			"20210525_simulation",
-			"20210614_exam"
+			"20210614_exam",
+			"20210715_exam"
 		]
 	},
 	{
@@ -320,7 +327,8 @@
 		"occurrences":
 		[
 			"20210525_simulation",
-			"20210614_exam"
+			"20210614_exam",
+			"20210715_exam"
 		]
 	},
 	{
@@ -339,7 +347,8 @@
 		[
 			"20200630_exam",
 			"20210525_simulation",
-			"20210614_exam"
+			"20210614_exam",
+			"20210715_exam"
 		]
 	},
 	{
@@ -385,13 +394,15 @@
 		[
 			"Application and chunk server",
 			"Application, master and chunk server",
-			"Master and chunk server"
+			"Master and chunk server",
+			"The linux file system"
 		],
 		"answer": 0,
 		"occurrences":
 		[
 			"20200630_exam",
-			"20210525_simulation"
+			"20210525_simulation",
+			"20210715_exam"
 		]
 	},
 	{
@@ -411,6 +422,20 @@
 		]
 	},
 	{
+		"question": "Researchers and engineers at Google designed the Google File System taking into account the file access model. What is the most frequent type of file access?",
+		"options":
+		[
+			"Random write",
+			"Random read",
+			"Append write"
+		],
+		"answer": 2,
+		"occurrences":
+		[
+			"20210715_exam"
+		]
+	},
+	{
 		"question": "What among the following is an RDD transformation?",
 		"options":
 		[
@@ -423,6 +448,20 @@
 		[
 			"20200630_exam",
 			"20210525_simulation"
+		]
+	},
+	{
+		"question": "What among the following is an RDD transformation?",
+		"options":
+		[
+			"collect",
+			"reduce",
+			"map"
+		],
+		"answer": 2,
+		"occurrences":
+		[
+			"20210715_exam"
 		]
 	},
 	{
@@ -450,7 +489,8 @@
 		"answer": 0,
 		"occurrences":
 		[
-			"20210525_simulation"
+			"20210525_simulation",
+			"20210715_exam"
 		]
 	},
 	{
@@ -551,7 +591,8 @@
 		"answer": 1,
 		"occurrences":
 		[
-			"20210525_simulation"
+			"20210525_simulation",
+			"20210715_exam"
 		]
 	},
 	{
@@ -566,7 +607,8 @@
 		"answer": 1,
 		"occurrences":
 		[
-			"20210525_simulation"
+			"20210525_simulation",
+			"20210715_exam"
 		]
 	},
 	{
@@ -594,7 +636,8 @@
 		"answer": 0,
 		"occurrences":
 		[
-			"20210614_exam"
+			"20210614_exam",
+			"20210715_exam"
 		]
 	},
 	{
@@ -737,7 +780,177 @@
 		"answer": 0,
 		"occurrences":
 		[
-			"20210614_exam"
+			"20210614_exam",
+			"20210715_exam"
+		]
+	},
+	{
+		"question": "The NIST definition of Cloud computing mention that “Computing resources are pooled to serve multiple consumers using a multi-tenant model”. What does multi-tenancy means?",
+		"options":
+		[
+			"Multiple users (tenants) access the same application logic simultaneously",
+			"Multiple users (tenants) access the same virtual host simultaneously",
+			"Multiple users (tenants) access the same data and configurations simultaneously"
+		],
+		"answer": 0,
+		"occurrences":
+		[
+			"20210715_exam"
+		]
+	},
+	{
+		"question": "What is a capacity planning match strategy?",
+		"options":
+		[
+			"A strategy for adding capacity when the IT resource reaches its full capacity",
+			"A strategy for adding capacity to an IT resource in anticipation of demand",
+			"A strategy for adding IT resource capacity in small increments, as demand increases"
+		],
+		"answer": 2,
+		"occurrences":
+		[
+			"20210715_exam"
+		]
+	},
+	{
+		"question": "Assume you are using a service offered via a web application and you do not pay for the use of the service. Which feature the service should have to be classified as a cloud service?",
+		"options":
+		[
+			"The service should provide the illusion of having infinite resources",
+			"The service should be capable to scale in or out",
+			"The service should allow  to control security and privacy"
+		],
+		"answer": 0,
+		"occurrences":
+		[
+			"20210715_exam"
+		]
+	},
+	{
+		"question": "The Ansible automation tools is defined to be an “agentless tool that runs in a push model”. What a push model means?",
+		"options":
+		[
+			"It is required to install specific software component on the remote machines to make them receive instruction pushed by the Ansible server",
+			"It manages remote machines by passing instructions (Ansible modules) to remote management framework already existing on the platforms to be administered",
+			"The management tool does not create any overhead when administration tasks are not running"
+		],
+		"answer": 1,
+		"occurrences":
+		[
+			"20210715_exam"
+		]
+	},
+	{
+		"question": "Suppose you have two implementation and deployment of the same application, one based on the Service Oriented Architecture and the other based on the Microservice Architecture. What will be the main difference between the two implementation and deployment?",
+		"options":
+		[
+			"Scaling algorithms used; reusability of the services; level of coupling of the services",
+			"Scaling algorithms used; data storage technologies; level of coupling of the services",
+			"Communication mechanisms used; Data handling model adopted; and size of the services"
+		],
+		"answer": 2,
+		"occurrences":
+		[
+			"20210715_exam"
+		]
+	},
+	{
+		"question": "An essential characteristic of cloud computing is measured service. How AWS implement this feature?",
+		"options":
+		[
+			"With CloudWatch",
+			"With EBS",
+			"With autoscaling groups"
+		],
+		"answer": 0,
+		"occurrences":
+		[
+			"20210715_exam"
+		]
+	},
+	{
+		"question": "What is the difference between Horizontal duplication and Functional decomposition in microservices?",
+		"options":
+		[
+			"Horizontal duplication is about scaling horizontally by replicating the whole application. Functional decomposition is about organising the application in functionalities that could be scaled individually according to the function's workload",
+			"Horizontal duplication is about replicating the whole application to improve availability. Functional decomposition is about partitioning the workload among replicas of the same function",
+			"Horizontal duplication is about scaling horizontally. Functional decomposition is about to replicate a functionality and to assign a different data partition to each replica"
+		],
+		"answer": 0,
+		"occurrences":
+		[
+			"20210715_exam"
+		]
+	},
+	{
+		"question": "The microservices architecture is defined as “an architectural style that structures an application as a collection of services that are: highly maintainable and testable; loosely coupled; Independently deployable; organized around business capabilities; owned by a small team.” Why services should be loosely coupled?",
+		"options":
+		[
+			"To facilitate the use of third party services",
+			"To facilitate interoperability",
+			"To minimize dependencies"
+		],
+		"answer": 2,
+		"occurrences":
+		[
+			"20210715_exam"
+		]
+	},
+	{
+		"question": "Let us consider an independent components event based system. What a subscriber component should provide?",
+		"options":
+		[
+			"A callback function that will be executed to generate events",
+			"An application programming interface to query for a specifi event",
+			"A callback function that will be executed when the event is activated"
+		],
+		"answer": 2,
+		"occurrences":
+		[
+			"20210715_exam"
+		]
+	},
+	{
+		"question": "Linux Namespace is an enabling technology for containers. What is exactly a Namespace?",
+		"options":
+		[
+			"A namespace is a Linux kernel feature that allow to identify a set of  local resource belonging (visible) to the processes within the namespace",
+			"A namespace is a Linux kernel feature which wraps a global system resource in an abstraction and allow to limit and monitor the usage of varius type of resources",
+			"A namespace wraps a global system resource in an abstraction that makes it appear to the processes within the namespace that they have their own isolated instance of the global resource"
+		],
+		"answer": 2,
+		"occurrences":
+		[
+			"20210715_exam"
+		]
+	},
+	{
+		"question": "Consider the docker CLI command `docker run -dp 3000:3000 getting-started`, which of the following actions is performed by the command?",
+		"options":
+		[
+			"Run and duplicate the getting-started container (-d) and create a mapping between the host’s port 3000 to the container’s port 3000 (-p)",
+			"Run and duplicate the getting-started container (-d) and create a mapping between the ports 3000 of the two containers (-p)",
+			"Run the getting-started container in the background (-d) and create a mapping between the host’s port 3000 to the container’s port 3000 (-p)"
+		],
+		"answer": 2,
+		"occurrences":
+		[
+			"20210715_exam"
+		]
+	},
+	{
+		"question": "A Bigtable is a sparse, distributed, persistent multidimensional sorted map. Which are the keys needed to locate a desired cell's version?",
+		"options":
+		[
+			"Row key, column key and timestamp",
+			"Row key, family key and timestamp",
+			"Only a row key",
+			"Row key and column key"
+		],
+		"answer": 0,
+		"occurrences":
+		[
+			"20210715_exam"
 		]
 	},
 	{
@@ -803,7 +1016,7 @@
 		"occurrences": []
 	},
 	{
-		"question": "A Bigtable is a sparse, distributed, persistent multidimensional sorted map. Which are the key needed to locate a desired cell?",
+		"question": "A Bigtable is a sparse, distributed, persistent multidimensional sorted map. Which are the keys needed to locate a desired cell?",
 		"options":
 		[
 			"Row key, column key and timestamp",
@@ -811,7 +1024,7 @@
 			"Only a row key",
 			"Row key and column key"
 		],
-		"answer": 0,
+		"answer": 3,
 		"occurrences": []
 	}
 ]
