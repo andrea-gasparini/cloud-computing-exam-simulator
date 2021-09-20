@@ -14,7 +14,8 @@
 		"occurrences":
 		[
 			"20200515_simulation",
-			"20210614_exam"
+			"20210614_exam",
+			"20210909_exam"
 		]
 	},
 	{
@@ -31,7 +32,8 @@
 		"occurrences":
 		[
 			"20200515_simulation",
-			"20210614_exam"
+			"20210614_exam",
+			"20210909_exam"
 		]
 	},
 	{
@@ -66,7 +68,8 @@
 			"20200515_simulation",
 			"20210525_simulation",
 			"20210614_exam",
-			"20210715_exam"
+			"20210715_exam",
+			"20210909_exam"
 		]
 	},
 	{
@@ -95,7 +98,8 @@
 		"answer": 2,
 		"occurrences":
 		[
-			"20210614_exam"
+			"20210614_exam",
+			"20210909_exam"
 		]
 	},
 	{
@@ -113,7 +117,8 @@
 		[
 			"20200630_exam",
 			"20210525_simulation",
-			"20210614_exam"
+			"20210614_exam",
+			"20210909_exam"
 		]
 	},
 	{
@@ -130,7 +135,8 @@
 		[
 			"20200630_exam",
 			"20210525_simulation",
-			"20210614_exam"
+			"20210614_exam",
+			"20210909_exam"
 		]
 	},
 	{
@@ -182,7 +188,8 @@
 			"20200630_exam",
 			"20210525_simulation",
 			"20210614_exam",
-			"20210715_exam"
+			"20210715_exam",
+			"20210909_exam"
 		]
 	},
 	{
@@ -215,7 +222,8 @@
 		[
 			"20200630_exam",
 			"20210525_simulation",
-			"20210614_exam"
+			"20210614_exam",
+			"20210909_exam"
 		]
 	},
 	{
@@ -233,7 +241,8 @@
 			"20200630_exam",
 			"20210525_simulation",
 			"20210614_exam",
-			"20210715_exam"
+			"20210715_exam",
+			"20210909_exam"
 		]
 	},
 	{
@@ -252,7 +261,8 @@
 			"20200630_exam",
 			"20210525_simulation",
 			"20210614_exam",
-			"20210715_exam"
+			"20210715_exam",
+			"20210909_exam"
 		]
 	},
 	{
@@ -272,7 +282,8 @@
 			"20200630_exam",
 			"20210525_simulation",
 			"20210614_exam",
-			"20210715_exam"
+			"20210715_exam",
+			"20210909_exam"
 		]
 	},
 	{
@@ -291,7 +302,8 @@
 			"20200630_exam",
 			"20210525_simulation",
 			"20210614_exam",
-			"20210715_exam"
+			"20210715_exam",
+			"20210909_exam"
 		]
 	},
 	{
@@ -310,7 +322,8 @@
 			"20200630_exam",
 			"20210525_simulation",
 			"20210614_exam",
-			"20210715_exam"
+			"20210715_exam",
+			"20210909_exam"
 		]
 	},
 	{
@@ -328,7 +341,8 @@
 		[
 			"20210525_simulation",
 			"20210614_exam",
-			"20210715_exam"
+			"20210715_exam",
+			"20210909_exam"
 		]
 	},
 	{
@@ -348,11 +362,12 @@
 			"20200630_exam",
 			"20210525_simulation",
 			"20210614_exam",
-			"20210715_exam"
+			"20210715_exam",
+			"20210909_exam"
 		]
 	},
 	{
-		"question": "Consider the Big Table datastore architecture in the figure. Which among the followings are duties of the Tablet server?",
+		"question": "Consider the BigTable datastore architecture in the figure. Which among the followings are duties of the Tablet server?",
 		"figure": "bigtable",
 		"options":
 		[
@@ -365,7 +380,8 @@
 		[
 			"20200630_exam",
 			"20210525_simulation",
-			"20210614_exam"
+			"20210614_exam",
+			"20210909_exam"
 		]
 	},
 	{
@@ -384,7 +400,8 @@
 		[
 			"20200630_exam",
 			"20210525_simulation",
-			"20210614_exam"
+			"20210614_exam",
+			"20210909_exam"
 		]
 	},
 	{
@@ -475,7 +492,8 @@
 		"answer": 0,
 		"occurrences":
 		[
-			"20210614_exam"
+			"20210614_exam",
+			"20210909_exam"
 		]
 	},
 	{
@@ -519,7 +537,8 @@
 		"answer": 1,
 		"occurrences":
 		[
-			"20210614_exam"
+			"20210614_exam",
+			"20210909_exam"
 		]
 	},
 	{
@@ -637,7 +656,8 @@
 		"occurrences":
 		[
 			"20210614_exam",
-			"20210715_exam"
+			"20210715_exam",
+			"20210909_exam"
 		]
 	},
 	{
@@ -651,7 +671,8 @@
 		"answer": 2,
 		"occurrences":
 		[
-			"20210614_exam"
+			"20210614_exam",
+			"20210909_exam"
 		]
 	},
 	{
@@ -665,7 +686,8 @@
 		"answer": 0,
 		"occurrences":
 		[
-			"20210614_exam"
+			"20210614_exam",
+			"20210909_exam"
 		]
 	},
 	{
@@ -679,7 +701,8 @@
 		"answer": 0,
 		"occurrences":
 		[
-			"20210614_exam"
+			"20210614_exam",
+			"20210909_exam"
 		]
 	},
 	{
@@ -696,7 +719,8 @@
 		"answer": 3,
 		"occurrences":
 		[
-			"20210614_exam"
+			"20210614_exam",
+			"20210909_exam"
 		]
 	},
 	{
@@ -710,7 +734,8 @@
 		"answer": 0,
 		"occurrences":
 		[
-			"20210614_exam"
+			"20210614_exam",
+			"20210909_exam"
 		]
 	},
 	{
@@ -724,7 +749,8 @@
 		"answer": 2,
 		"occurrences":
 		[
-			"20210614_exam"
+			"20210614_exam",
+			"20210909_exam"
 		]
 	},
 	{
@@ -738,7 +764,8 @@
 		"answer": 2,
 		"occurrences":
 		[
-			"20210614_exam"
+			"20210614_exam",
+			"20210909_exam"
 		]
 	},
 	{
@@ -752,7 +779,8 @@
 		"answer": 0,
 		"occurrences":
 		[
-			"20210614_exam"
+			"20210614_exam",
+			"20210909_exam"
 		]
 	},
 	{
@@ -766,7 +794,8 @@
 		"answer": 1,
 		"occurrences":
 		[
-			"20210614_exam"
+			"20210614_exam",
+			"20210909_exam"
 		]
 	},
 	{
@@ -781,7 +810,8 @@
 		"occurrences":
 		[
 			"20210614_exam",
-			"20210715_exam"
+			"20210715_exam",
+			"20210909_exam"
 		]
 	},
 	{
