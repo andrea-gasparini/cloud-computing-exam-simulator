@@ -2,7 +2,7 @@
 
 Simple React app to simulate the Cloud Computing written "exam" @ Sapienza University of Rome.
 
-DISCLAIMER: since this simulator has been developed just to have something working, this code is not the cleanest in the world.
+**DISCLAIMER**: since this simulator has been developed just to have a simple tool working, this code may not be the cleanest in the world.
 
 # Dependencies
 
