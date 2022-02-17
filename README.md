@@ -23,13 +23,13 @@ npm run start
 
 ## Contributions
 
-If you want to contribute to the "database" of questions, simply edit the `[questions.json](src/assets/questions.json)` and open a Pull Request.
+If you want to contribute to the "database" of questions, simply edit the [`questions.json`](src/assets/questions.json) and open a Pull Request.
 Every new question should have the following entries:
 - `question`: a string with the question
 - `options`: an array of possible answers
 - `answer`: the index (starts from 0) of the correct answer among the ones in the `options` array
 - `occurrences`: an array of exam/simulation dates in which the question occurred
-- `figure`: an optional field for the name of a figure that should be shown (to add new images upload them in the `[src/assets/images](src/assets/images)` directory and accordingly update the `mapImages` dictionary in `[App.js](src/App.js)`)
+- `figure`: an optional field for the name of a figure that should be shown (to add new images upload them in the [`src/assets/images`](src/assets/images) directory and accordingly update the `mapImages` dictionary in [`App.js`](src/App.js))
 
 ## Authors
 
