@@ -4,7 +4,7 @@ Simple React app to simulate the Cloud Computing written "exam" @ Sapienza Unive
 
 **DISCLAIMER**: since this simulator has been developed just to have a simple working tool, this code may not be the cleanest in the world, feel free to refactor it and open a PR :)
 
-# Dependencies
+## Dependencies
 
 - Node.js
 - `npm`
