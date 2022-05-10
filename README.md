@@ -31,6 +31,22 @@ Every new question should have the following entries:
 - `occurrences`: an array of exam/simulation dates in which the question occurred
 - `figure`: an optional field for the name of a figure that should be shown (to add new images upload them in the [`src/assets/images`](src/assets/images) directory and accordingly update the `mapImages` dictionary in [`App.js`](src/App.js))
 
+## Running with Docker
+Please if you don't have docker install it. After Docker has been installed, in the same directory where the Dockerfile is, run
+
+```sh
+docker build . -t cloud_simulator
+docker run --rm -i -p 80:3000 cloud_simulator
+```
+
+Otherwise, just run 
+
+```sh
+docker run --rm -i -p 80:3000 lmriccardo/cloud_simulator
+```
+
+Then just open a browser and search for `localhost:80`.
+
 ## Authors
 
 - [Andrea Gasparini](https://github.com/andrea-gasparini)
