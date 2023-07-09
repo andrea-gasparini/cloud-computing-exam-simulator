@@ -1503,10 +1503,10 @@
 		"question": "Each ___________________ is a fully isolated partition of the AWS infrastructure.",
 		"options": [
 			"Datacenter",
-			"Region NO",
+			"Region",
 			"Availability Zone"
 		],
-		"answer": -1,
+		"answer": 2,
 		"occurrences": [
 			"20230619_exam"
 		]
