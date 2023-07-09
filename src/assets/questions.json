@@ -1265,7 +1265,7 @@
 		"options":
 		[
 			"AWS",
-			"Costumer CHECK"
+			"Costumer"
 		],
 		"answer": 1,
 		"occurrences": 
@@ -1452,7 +1452,7 @@
 			"The Cloud Service Provider",
 			"The Customer"
 		],
-		"answer": 0,
+		"answer": 1,
 		"occurrences": 
 		[
 			"20230622_exam"
