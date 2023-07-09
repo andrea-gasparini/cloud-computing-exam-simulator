@@ -1421,12 +1421,12 @@
 		"options":
 		[
 
-			"Network load balancer NO",
+			"Network load balancer",
 			"Application Load Balancer",
 			"Classic Load Balancer"
 			
 		],
-		"answer": -1,
+		"answer": 1,
 		"occurrences": 
 		[
 			"20230622_exam"
@@ -1588,7 +1588,7 @@
 		[
 			"Methods. models and algorithms to scale up/down or in/out",
 			"Methods, models and algorithms to provide the right amount of capacity when needed",
-			"Methods models and algorithms for adding capacity to an IT resource in anticipation of demand NO"
+			"Methods models and algorithms for adding capacity to an IT resource in anticipation of demand"
 		],
 		"answer": 1,
 		"occurrences": 
