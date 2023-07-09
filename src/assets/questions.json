@@ -1517,7 +1517,7 @@
 		[
 			"Self-optimization",
 			"Self-healing",
-			"Self-configuration",
+			"Self-configuration"
 		],
 		"answer": 2,
 		"occurrences": 
@@ -1571,7 +1571,7 @@
 		"question": "Which of the following is a key difference between microservices and SOA?",
 		"options":
 		[
-			"Data handling"
+			"Data handling",
 			"Data security",
 			"Programming languages"
 		],
@@ -1654,7 +1654,7 @@
 		"options":
 		[
 			"The alarm occurs if for all the instances in the scaling group the value of the incoming traffic exceeds the threshold.",
-			"The alarm occurs if the average value of the incoming traffc computed over all the instances in the scaling group exceed the threshold.",
+			"The alarm occurs if the average value of the incoming traffic computed over all the instances in the scaling group exceed the threshold.",
 			"The alarm occurs if for a user configured number of the instances in the scaling group the value of the incoming traffic exceeds the threshold."
 		],
 		"answer": 1,
