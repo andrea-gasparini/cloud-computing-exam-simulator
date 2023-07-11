@@ -1042,7 +1042,7 @@
 			"The Cloud Service Provider",
 			"The Customer"
 		],
-		"answer": 0,
+		"answer": 1,
 		"occurrences": [
 			"20230619_exam"
 		]
@@ -1074,7 +1074,7 @@
 	{
 		"question": "An autoscaling algorithm is considered proactive when the scaling decision is taken on the basis of a predicted value of the scaling metrics. E.g. predicted value of CPU utilization in the next 5 minutes.",
 		"options": [
-			"Ture",
+			"True",
 			"False"
 		],
 		"answer": 0,
@@ -1113,7 +1113,7 @@
 			"Region",
 			"Availability Zone"
 		],
-		"answer": 0,
+		"answer": 2,
 		"occurrences": [
 			"20230619_exam"
 		]
@@ -1161,7 +1161,7 @@
 			"The alarm occurs if for at least one instance the maximum observed incoming traffic exceeds the threshold.",
 			"The alarm occurs if the average value of the incoming traffic computed over all the instances in the scaling group exceed the threshold."
 		],
-		"answer": 0,
+		"answer": 1,
 		"occurrences": [
 			"20230619_exam"
 		]
