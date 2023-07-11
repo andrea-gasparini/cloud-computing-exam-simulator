@@ -848,7 +848,7 @@
 		"question": "Let us consider an independent components event based system. What a subscriber component should provide?",
 		"options": [
 			"A callback function that will be executed to generate events",
-			"An application programming interface to query for a specifi event",
+			"An application programming interface to query for a specific event",
 			"A callback function that will be executed when the event is activated"
 		],
 		"answer": 2,
