@@ -1489,8 +1489,8 @@
 		"question": "Linux Namespace is an enabling technology for containers. What exactly is a Namespace?",
 		"options":
 		[
-			"A namespace wraps a global system resource in an abstraction that makes it appear to the processes within the namespace that they have their own isolated instance of$ OK the global resource.",
-			"A namespace is a Linux kernel feature which wraps a global system resource in an abstraction and allow to limit and monitor the usage of varius type of resources",
+			"A namespace wraps a global system resource in an abstraction that makes it appear to the processes within the namespace that they have their own isolated instance of the global resource.",
+			"A namespace is a Linux kernel feature which wraps a global system resource in an abstraction and allow to limit and monitor the usage of various type of resources",
 			"A namespace is a Linux kernel feature that allow to identify a set of local resource belonging (visible) to the processes within the namespace."
 		],
 		"answer": 0,
