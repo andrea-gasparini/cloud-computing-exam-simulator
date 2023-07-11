@@ -1166,4 +1166,376 @@
 			"20230619_exam"
 		]
 	}
+	{
+		"question": "Assume you are using an infrastructure service offered via a web application and you do not pay for the use of the service. Which feature the service should have to be classified as a cloud service?",
+		"options":
+		[
+			"The service should provide the illusion of having infinite resources",
+			"The service should be configurable",
+			"The service should allow to control security and privacy"
+		],
+		"answer": 0,
+		"occurrences": 
+		[
+			"20230619_exam"
+		]	
+	},
+	{
+		"question": "Why scalability is related to performance in a cloud system?",
+		"options":
+		[
+			"Scalability measure how fast and efficiently a system can complete certain tasks",
+			"Scalability measure how fast is an elasticity mechanism in provisioning or deprovisioning resources",
+			"Scalability measure the trend of performance with increasing load"
+		],
+		"answer": 2,
+		"occurrences": 
+		[
+			"20230619_exam"
+		]
+	},
+	{
+		"question" : "Which of the following is a challenges in the microservice architecture?",
+		"options":
+		[
+			"Deploying features that span multiple services developed by different teams",
+			"Experimenting and adoption of new technologies",
+			"Fault isolation"
+		],
+		"answer": 0,
+		"occurrences": 
+		[
+			"20230619_exam"
+		]
+	},
+	{
+		"question" : "Which of the following is a challenges in the microservice architecture?",
+		"options":
+		[
+			"Development, testing and deployment is challenging",
+			"Experimenting and adoption of new technologies",
+			"Fault isolation"
+		],
+		"answer": 0,
+		"occurrences": 
+		[
+			"20230619_exam"
+		]
+	},
+	{
+		"question": "How data are typically handled in a microservice architecture?",
+		"options":
+		[
+			"Each service has its own database and data model",
+			"Services are stateless, and then do not maintain any data model",
+			"Services share a global data model and a databases"
+		],
+		"answer":0,
+		"occurrences": 
+		[
+			"20230619_exam"
+		]
+	},
+	{
+		"question": "An autoscaling algorithm is considered proactive when the number of needed resources is computed using an ML or mathematical model.",
+		"options":
+		[
+			"True",
+			"False"
+		],
+		"answer": 1,
+		"occurrences": 
+		[
+			"20230619_exam"
+		]
+	},
+	{
+		"question": "Assume you are setting up a scalable web server with AWS and configuring a step scaling policy for your autoscaling group. You have set the alarm to start the scale-out with a threshold on the average value of the incoming traffic. Which of the following assertions is true?",
+		"options":
+		[
+			"The scale-out is triggered when the average value of the incoming traffic is greater than the threshold for a specific amount of time",
+			"The scale-out is triggered when the average value of the incoming traffic is greater than the threshold for a specific amount of time and the number of instances is greater than the minimum number of instances",
+			"The scale-out is triggered when the average value of the incoming traffic is greater than the threshold for a specific amount of time and the number of instances is greater than the maximum number of instances"
+		],
+		"answer": 2,
+		"occurrences": 
+		[
+			"20230619_exam"
+		]
+	},
+	{
+		"question": "Data replication across Regions is controlled by ______________",
+		"options":
+		[
+			"AWS",
+			"Costumer"
+		],
+		"answer": 1,
+		"occurrences": 
+		[
+			"20230619_exam"
+		]
+	},
+	{
+		"question": "Suppose you want to add a new record in a database using a REST web service. Are the following HTTP requests equivalent? \n FRAGMENT 1: \n POST /users HTTP/1.1 \n Host: myserver \n Content-Type: application/xml \n <?xml version=1.0?> \n <user> \n <name> \n Robert \n </name> \n </user>\n\n FRAGMENT 2: \n GET /adduser?name=Robert HTTP/1.1",
+		"options": 
+		[
+			"YES",
+			"NO"
+		],
+		"answer": 0,
+		"occurrences": 
+		[
+			"20230619_exam"
+		]
+	},
+	{
+		"question": "Suppose you want to add a new record in a database using a REST web service. Are the following HTTP requests equivalent? \n FRAGMENT 1: \n PUT /users HTTP/1.1 \n Host: myserver \n Content-Type: application/xml \n <?xml version=1.0?> \n <user> \n <name> \n Robert \n </name> \n </user>\n\n FRAGMENT 2: \n GET /adduser?name=Robert HTTP/1.1",
+		"options":
+		[
+			"YES",
+			"NO"
+		],
+		"answer": 1,
+		"occurrences": 
+		[
+			"20230619_exam"
+		]
+	},
+	{
+		"question": "Consider the difference between communication mechanisms adopted by SOA and by microservices. What of the following assertion is correct?",
+		"options":
+		[
+			"SOA uses lightweight communication mechanisms and microservices uses open source communication mechanisms",
+			"Microservices uses lightweight and open-source communication mechanisms, while SOA uses heavyweight and often proprietary communication mechanisms",
+			"Microservices uses an open source service bus, while SOA uses the (proprietary) enterprise service bus"
+		],
+		"answer": 1,
+		"occurrences": 
+		[
+			"20230619_exam"
+		]
+	},
+	{
+		"question": "An autoscaling algorithm is considered proactive when the number of needed resources is computed using an ML or mathematical model.",
+		"options":
+		[
+			"TRUE",
+			"FALSE"
+		],
+		"answer": 1,
+		"occurrences": 
+		[
+			"20230619_exam"
+		]
+	},
+	{
+		"question": "Consider you want to set up an Elastic Load Balancer for supporting HTTPS requests. Which type of ELB will you select?",
+		"options":
+		[
+
+			"Network load balancer",
+			"Application Load Balancer",
+			"Classic Load Balancer"
+			
+		],
+		"answer": 1,
+		"occurrences": 
+		[
+			"20230619_exam"
+		]
+	},
+	{
+		"question": "Who is responsible for the Security of the cloud?",
+		"options":
+		[
+			"The Cloud Service Provider",
+			"The Customer"
+		],
+		"answer": 0,
+		"occurrences": 
+		[
+			"20230619_exam"
+		]
+	},
+	{
+		"question": "Which of the following is a benefit of microservice architecture?",
+		"options":
+		[
+		"The microservice architecture enable small and easily maintained services.",
+		"The microservice architecture enables intensive collaboration among teams",
+		"The microservice architecture enables fault propagation"		
+		],
+		"answer": 0,
+		"occurrences": 
+		[
+			"20230619_exam"
+		]
+	},
+	{
+		"question": "________ represents a single centralized executable business process that coordinates the interaction among different services.",
+		"options":
+		[
+			"Service choreography",
+			"Service automation",
+			"Service orchestration"
+		],
+		"answer": 2,
+		"occurrences": 
+		[
+			"20230619_exam"
+		]
+	},
+	{
+		"question": "Each ___________________ is a fully isolated partition of the AWS infrastructure.",
+		"options": [
+			"Datacenter",
+			"Region",
+			"Availability Zone"
+		],
+		"answer": 2,
+		"occurrences": [
+			"20230619_exam"
+		]
+	},
+	{
+		"question": "_________ is the ability to accommodate varying and possibly unpredictable conditions",
+		"options":
+		[
+			"Self-optimization",
+			"Self-healing",
+			"Self-configuration"
+		],
+		"answer": 2,
+		"occurrences": 
+		[
+			"20230619_exam"
+		]
+	},
+	{
+		"question": "Assume you are setting up a scalable web server with AWS and configuring a step scaling policy for your autoscaling group. You have set the alarm to start the scale-out with a threshold on the maximum incoming traffic. \n nWhich of the following assertions is true?",
+		"options":
+		[
+			"The alarm occurs if for all the instances in the scaling group the value of the incoming traffic exceeds the threshold.",
+			"The alarm occurs if for at least one instance the maximum observed incoming traffic exceeds the threshold.",
+			"The alarm occurs if the average value of the incoming traffic computed over all the instances in the scaling group exceed the threshold."
+		],
+		"answer": 1,
+		"occurrences": 
+		[
+			"20230619_exam"
+		]
+	},
+	{
+		"question": "_____ is the ability to constant monitoring for optimal operation",
+		"options":
+		[
+			"Self-optimization",
+			"Self-healing",
+			"Self-configuration"
+		],
+		"answer": 0,
+		"occurrences": 
+		[
+			"20230619_exam"
+		]
+	},
+	{
+		"question": "Which of the following is a key difference between microservices and SOA?",
+		"options":
+		[
+			"Communication mechanisms",
+			"Programming languages",
+			"Data security"
+		],
+		"answer": 0,
+		"occurrences": 
+		[
+			"20230619_exam"
+		]
+	},
+	{
+		"question": "Which of the following is a key difference between microservices and SOA?",
+		"options":
+		[
+			"Data handling",
+			"Data security",
+			"Programming languages"
+		],
+		"answer": 0,
+		"occurrences": 
+		[
+			"20230619_exam"
+		]
+		
+	},
+	{
+		"question": "Which among the following is the appropriate definition for capacity planning",
+		"options":
+		[
+			"Methods. models and algorithms to scale up/down or in/out",
+			"Methods, models and algorithms to provide the right amount of capacity when needed",
+			"Methods models and algorithms for adding capacity to an IT resource in anticipation of demand"
+		],
+		"answer": 1,
+		"occurrences": 
+		[
+			"20230619_exam"
+		]
+
+	},
+	{
+		"question": "The Ansible automation tools is de_ned to be an 'agentless tool that runs in a push model'''. What a push model means?'",
+		"options": [
+			"The management tool does not create any overhead when administration tasks are not running",
+			"It manages remote machines by passing instructions (Ansible modules) to remote management framework already existing on the platforms to be administered",
+			"It is required to instal speci_c software component on the remote machines to make them receive instruction pushed by the Ansible server"
+		],
+		"answer": 1,
+		"occurrences": [
+			"20230619_exam"
+		]
+	},
+	{
+		"question": "Linux Namespace is an enabling technology for containers. What exactly is a Namespace?",
+		"options":
+		[
+			"A namespace wraps a global system resource in an abstraction that makes it appear to the processes within the namespace that they have their own isolated instance of$ OK the global resource.",
+			"A namespace is a Linux kernel feature which wraps a global system resource in an abstraction and allow to limit and monitor the usage of varius type of resources",
+			"A namespace is a Linux kernel feature that allow to identify a set of local resource belonging (visible) to the processes within the namespace."
+		],
+		"answer": 0,
+		"occurrences": 
+		[
+			"20230619_exam"
+		]
+	},
+	{
+		"question": "Assume that you are deploying a set of containers on different Docker hosts, and such containers need to communicate. What of the following network drivers will you use?",
+		"options":
+		[
+			"Overlay Networks",
+			"Macvlan networks",
+			"Host networks"
+		],
+		"answer": 0,
+		"occurrences": 
+		[
+			"20230619_exam"
+		]
+	},
+	{
+		"question": "Assume that you are setting up a scalable web server with AWS and that you have configured a step scaling policy for your autoscaling group. You have set the alarm to start the scale-out with a threshold on the average incoming traffic. Which of the following assertions is true?",
+		"options":
+		[
+			"The alarm occurs if for all the instances in the scaling group the value of the incoming traffic exceeds the threshold.",
+			"The alarm occurs if the average value of the incoming traffic computed over all the instances in the scaling group exceed the threshold.",
+			"The alarm occurs if for a user configured number of the instances in the scaling group the value of the incoming traffic exceeds the threshold."
+		],
+		"answer": 1,
+		"occurrences": 
+		[
+			"20230619_exam"
+		]
+	}
 ]
