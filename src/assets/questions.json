@@ -1108,18 +1108,6 @@
 		]
 	},
 	{
-		"question": "Each ___________________ is a fully isolated partition of the AWS infrastructure.",
-		"options": [
-			"Datacenter",
-			"Region",
-			"Availability Zone"
-		],
-		"answer": 2,
-		"occurrences": [
-			"20230619_exam"
-		]
-	},
-	{
 		"question": "How can be classified a cloud mechanism that guarantees a given number of VMs or containers are always available (up & running)?",
 		"options": [
 			"Self-healing mechanism",
