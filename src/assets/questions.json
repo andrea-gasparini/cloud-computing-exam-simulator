@@ -791,7 +791,8 @@
 		],
 		"answer": 1,
 		"occurrences": [
-			"20210715_exam"
+			"20210715_exam",
+			"20230619_exam"
 		]
 	},
 	{
@@ -1483,18 +1484,6 @@
 			"20230619_exam"
 		]
 
-	},
-	{
-		"question": "The Ansible automation tools is de_ned to be an 'agentless tool that runs in a push model'''. What a push model means?'",
-		"options": [
-			"The management tool does not create any overhead when administration tasks are not running",
-			"It manages remote machines by passing instructions (Ansible modules) to remote management framework already existing on the platforms to be administered",
-			"It is required to instal speci_c software component on the remote machines to make them receive instruction pushed by the Ansible server"
-		],
-		"answer": 1,
-		"occurrences": [
-			"20230619_exam"
-		]
 	},
 	{
 		"question": "Linux Namespace is an enabling technology for containers. What exactly is a Namespace?",
