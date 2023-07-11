@@ -1318,19 +1318,6 @@
 		]
 	},
 	{
-		"question": "An autoscaling algorithm is considered proactive when the number of needed resources is computed using an ML or mathematical model.",
-		"options":
-		[
-			"TRUE",
-			"FALSE"
-		],
-		"answer": 1,
-		"occurrences": 
-		[
-			"20230619_exam"
-		]
-	},
-	{
 		"question": "Consider you want to set up an Elastic Load Balancer for supporting HTTPS requests. Which type of ELB will you select?",
 		"options":
 		[
