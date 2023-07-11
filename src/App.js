@@ -24,7 +24,7 @@ class App extends Component {
       darkMode: true
     };
 
-    this.questions_number = 30;
+    this.questions_number = 35;
     this.timer = 0;
 
     this.mapImages = {
@@ -81,7 +81,7 @@ class App extends Component {
 
   get_random_questions = () => {
     let quiz = this.shuffle(questions);
-    quiz = quiz.slice(0, 30);
+    quiz = quiz.slice(0, this.questions_number);
     return quiz;
   };
 
@@ -130,7 +130,7 @@ class App extends Component {
         } else {
           selected_answer_element.style.color = "red";
           selected_answer_element.style.fontWeight = "bold";
-          score[questionKey] = -1;
+          score[questionKey] = -0.5;
           answersSelection[questionKey] = selected;
           let correct_answer_element = document.getElementById(`question_${questionKey}_${this.calculate_correct_idx(question["answersQuizzed"])}`);
           correct_answer_element.style.color = "green";
@@ -302,7 +302,7 @@ class App extends Component {
               })}
             </div>
             <div className={"score"}>
-              Score: {optionAnswersCheck ? score_point : evaluated ? score_point : 0}/60
+              Score: {optionAnswersCheck ? score_point : evaluated ? score_point : 0}/70
             </div>
             <div className={"nightMode"}>
               <label>Night mode</label>
