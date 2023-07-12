@@ -1501,5 +1501,18 @@
 		[
 			"20230619_exam"
 		]
+	},
+	{
+		"question": "Suppose you must share configuration files from the host machine to containers . Which Docker storage option is the most appropriate?",
+		"options": [
+			"Volumes",
+			"Bind mount",
+			"Tmpfs mount"
+		],
+		"answer": 1,
+		"occurrences": 
+		[
+			"20230619_exam"
+		]
 	}
 ]
