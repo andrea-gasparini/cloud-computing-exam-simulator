@@ -1514,5 +1514,18 @@
 		[
 			"20230619_exam"
 		]
+	},
+	{
+		"question": "Each AWS Region provides _________ and connectivity to the network.",
+		"options": [
+			"high availability",
+			"traffic load balancing",
+			"full redundancy"
+		],
+		"answer": 2,
+		"occurrences":
+		[
+			"20230619_exam"
+		]
 	}
 ]
