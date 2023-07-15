@@ -1026,18 +1026,6 @@
 		]
 	},
 	{
-		"question": "Consider setting up an Elastic Load Balancer to support traffic to a containerized application. Which type of ELB will you select?",
-		"options": [
-			"Network load balancer",
-			"Classic Load Balancer",
-			"Application Load Balancer"
-		],
-		"answer": 2,
-		"occurrences": [
-			"20230619_exam"
-		]
-	},
-	{
 		"question": "Who is responsible for the Security in the cloud?",
 		"options": [
 			"The Cloud Service Provider",
@@ -1248,6 +1236,35 @@
 		],
 		"answer": 2,
 		"occurrences": 
+		[
+			"20230619_exam"
+		]
+	},
+	{
+		"question": "Assume you are setting up a scalable web server with AWS and configuring a step scaling policy for your autoscaling group. You have set the alarm to start the scale-out with a threshold on the average value of the incoming traffic. Which of the following assertions is true?",
+		"options":
+		[
+			"The alarm occurs if, for the majority of the instances in the scaling group, the value of the incoming traffic exceeds the threshold (e.g. for 3 out of 5).",
+			"The alarm occurs if there is at least an instance in the scaling group with the value of the incoming traffic exceeding the threshold.",
+			"The alarm occurs if the average value of the incoming traffic computed over all the instances in the scaling group exceed the threshold."
+		],
+		"answer": 2,
+		"occurrences":
+		[
+			"20230619_exam"
+		]
+	},
+	{
+		"question": "Consider the Kubernetes architecture in the figure. Assume you configure the pod autoscaling mechanisms. What is the missing component in the figure?",
+		"figure": "kubernetes",
+		"options":
+		[
+			"The planner module",
+			"The analyzer module",
+			"A resource usage monitor module"
+		],
+		"answer":2,
+		"occurrences":
 		[
 			"20230619_exam"
 		]
@@ -1523,6 +1540,63 @@
 			"full redundancy"
 		],
 		"answer": 2,
+		"occurrences":
+		[
+			"20230619_exam"
+		]
+	},
+	{
+		"question": "Which type of scalability is facilitated by microservices",
+		"options":
+		[
+			"Scale by cloning",
+			"Single functions scalability",
+			"Scaling of Application data"
+		],
+		"answer":1,
+		"occurrences":
+		[
+			"20230619_exam"
+		]
+	},
+	{
+		"question": "Suppose you must share source code or build artifacts between a development environment on the Docker host and a container. Which Docker storage option is most appropriate?",
+		"options":
+		[
+			"Tmpfs mount",
+			"Volumes",
+			"Bind mount"
+		],
+		"answer":2,
+		"occurrences":
+		[
+			"20230619_exam"
+		]
+	},
+	{
+		"question": "Which of the following is a benefit of microservice architecture?",
+		"options":
+		[
+			"The microservice architecture enables fault propagation",
+			"The microservice architecture limits adoption of new technologies",
+			"The microservice architecture enables teams to be autonomous."
+		],
+		"answer":2,
+		"occurrences":
+		[
+			"20230619_exam"
+		]
+	},	
+	{
+		"question": "Consider the Kubernetes architecture in the figure. What is the component that decides on which Kubernetes node a to start a new pod?",
+		"figure": "kubernetes",
+		"options":
+		[
+			"The kube-scheduler",
+			"The kube-controller-manager",
+			"The cloud-controller manager"
+		],
+		"answer": 0,
 		"occurrences":
 		[
 			"20230619_exam"
