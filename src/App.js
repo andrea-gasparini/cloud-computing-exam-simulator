@@ -24,7 +24,7 @@ class App extends Component {
       darkMode: true
     };
 
-    this.questions_number = 40;
+    this.questions_number = 35;
     this.timer = 0;
     this.correct_answer_score = 2;
     this.wrong_answer_score = -0.5;
