@@ -15,7 +15,7 @@ class App extends Component {
 
     this.state = {
       quiz: null,
-      timer_minutes: 30,
+      timer_minutes: 40,
       timer_seconds: 0,
       optionAnswersCheck: false,
       score: {},
@@ -24,8 +24,11 @@ class App extends Component {
       darkMode: true
     };
 
-    this.questions_number = 35;
+    this.questions_number = 40;
     this.timer = 0;
+    this.correct_answer_score = 2;
+    this.wrong_answer_score = -0.5;
+    this.maximum_score = this.correct_answer_score * this.questions_number;
 
     this.mapImages = {
       "alarms": Alarms,
@@ -125,12 +128,12 @@ class App extends Component {
         if(answerObj[1]) {
           selected_answer_element.style.color = "green";
           selected_answer_element.style.fontWeight = "bold";
-          score[questionKey] = 2;
+          score[questionKey] = this.correct_answer_score;
           answersSelection[questionKey] = selected;
         } else {
           selected_answer_element.style.color = "red";
           selected_answer_element.style.fontWeight = "bold";
-          score[questionKey] = -0.5;
+          score[questionKey] = this.wrong_answer_score;
           answersSelection[questionKey] = selected;
           let correct_answer_element = document.getElementById(`question_${questionKey}_${this.calculate_correct_idx(question["answersQuizzed"])}`);
           correct_answer_element.style.color = "green";
@@ -146,10 +149,10 @@ class App extends Component {
     } else {
       if(!fromButton) {
         if (answerObj[1]) {
-          score[questionKey] = 2;
+          score[questionKey] = this.correct_answer_score;
           answersSelection[questionKey] = selected;
         } else if (answerObj != null && !answerObj[1]) {
-          score[questionKey] = -1;
+          score[questionKey] = this.wrong_answer_score;
           answersSelection[questionKey] = selected;
         } else {
           score[questionKey] = 0;
@@ -161,14 +164,14 @@ class App extends Component {
         this.setState({timer_minutes: 30, timer_seconds: 0, evaluated: true});
         let {quiz} = this.state;
         Object.keys(this.state.score).map((key) => {
-          if(score[key] == 2) {
+          if(score[key] == this.correct_answer_score) {
             // corretta
             let selected_answer_element = document.getElementById(`question_${key}_${this.calculate_correct_idx(quiz[key]["answersQuizzed"])}`);
             if(selected_answer_element !== null) {
               selected_answer_element.style.color = "green";
               selected_answer_element.style.fontWeight = "bold";
             }
-          } else if(score[key] == -1) {
+          } else if(score[key] == this.wrong_answer_score) {
             let selected_answer_element = document.getElementById(`question_${key}_${answersSelection[key]}`);
             let correct_answer_element = document.getElementById(`question_${key}_${this.calculate_correct_idx(quiz[key]["answersQuizzed"])}`);
             if(correct_answer_element != null) {
@@ -302,7 +305,7 @@ class App extends Component {
               })}
             </div>
             <div className={"score"}>
-              Score: {optionAnswersCheck ? score_point : evaluated ? score_point : 0}/70
+              Score: {optionAnswersCheck ? score_point : evaluated ? score_point : 0}/{this.maximum_score}
             </div>
             <div className={"nightMode"}>
               <label>Night mode</label>
